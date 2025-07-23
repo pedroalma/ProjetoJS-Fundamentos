@@ -2,20 +2,12 @@ let op = 1;
 let num1 = 10;
 let num2 = 5;
 let nome = 'Operação';
-function soma(num1, num2){
-    return num1 + num2;
-}
-function subtracao(num1, num2){
-    return num1 - num2;
-}
-function multiplicacao(num1, num2){
-    return num1 * num2;
-}
-function divisao(num1, num2){
-    return num1 / num2;
-}
+soma = (num1, num2) => num1 + num2;
+subtracao = (num1, num2) => num1 - num2;
+multiplicacao = (num1, num2) => num1 * num2;
+divisao = (num1, num2) => num1 / num2;
 
-function operacao(op,num1,num2){
+operacao = (op,num1,num2) =>{
     switch(op){
         case 1:
             return soma(num1, num2) + (nome =' Soma'); 
