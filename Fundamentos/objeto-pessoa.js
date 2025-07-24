@@ -5,3 +5,7 @@ const pessoa ={
 };
 console.log(pessoa.nome);
 console.log(pessoa.idade);
+console.log(pessoa.cidade);
+console.log(pessoa['nome']);
+console.log(pessoa['idade']);
+console.log(pessoa['cidade']);
